@@ -1,4 +1,2 @@
 rootProject.name = 'ratpack-reactivestreams-example'
 
-include 'client'
-include 'server'
