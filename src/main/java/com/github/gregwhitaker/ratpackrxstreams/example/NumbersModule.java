@@ -11,5 +11,6 @@ public class NumbersModule extends AbstractModule {
     protected void configure() {
         bind(NumberService.class).to(RandomNumberService.class);
         bind(NumbersHandler.class);
+        bind(WebSocketNumbersHandlers.class);
     }
 }
