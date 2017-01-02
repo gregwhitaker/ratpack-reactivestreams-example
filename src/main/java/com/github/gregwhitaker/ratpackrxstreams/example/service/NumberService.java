@@ -10,7 +10,8 @@ public interface NumberService {
     /**
      * Get the next number.
      *
+     * @param cnt total numbers to return
      * @return next number
      */
-    Observable<Integer> next();
+    Observable<Integer> next(int cnt);
 }

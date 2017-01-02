@@ -21,8 +21,7 @@ public class Main {
                 .serverConfig(c -> c.baseDir(BaseDir.find()))
                 .registry(Guice.registry(b -> b.module(NumbersModule.class)))
                 .handlers(chain -> chain
-                        .get("numbers/next", NumbersHandler.class)
-                        .get("numbers/next/stream", WebSocketNumbersHandlers.class)
+                        .get("numbers", WebSocketNumbersHandlers.class)
                         .files(f -> f
                                 .dir("public").indexFiles("index.html"))));
     }
