@@ -18,6 +18,6 @@ public class NumbersHandler implements Handler {
 
     @Override
     public void handle(Context ctx) throws Exception {
-        ctx.getResponse().send(Long.toString(numberService.next()));
+        numberService.next().subscribe(val -> ctx.getResponse().send(Integer.toString(val)));
     }
 }

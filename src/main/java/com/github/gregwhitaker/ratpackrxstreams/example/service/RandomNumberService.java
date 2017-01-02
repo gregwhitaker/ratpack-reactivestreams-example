@@ -1,5 +1,7 @@
 package com.github.gregwhitaker.ratpackrxstreams.example.service;
 
+import rx.Observable;
+
 import java.util.Random;
 
 /**
@@ -9,7 +11,7 @@ public class RandomNumberService implements NumberService {
     private static final Random RAND = new Random(System.currentTimeMillis());
 
     @Override
-    public int next() {
-        return RAND.nextInt(100 - 1 + 1) + 1;
+    public Observable<Integer> next() {
+        return Observable.create(subscriber -> subscriber.onNext(RAND.nextInt(100 - 1 + 1) + 1));
     }
 }

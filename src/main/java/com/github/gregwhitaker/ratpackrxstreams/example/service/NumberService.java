@@ -1,5 +1,7 @@
 package com.github.gregwhitaker.ratpackrxstreams.example.service;
 
+import rx.Observable;
+
 /**
  * Service that generates numbers.
  */
@@ -10,5 +12,5 @@ public interface NumberService {
      *
      * @return next number
      */
-    int next();
+    Observable<Integer> next();
 }

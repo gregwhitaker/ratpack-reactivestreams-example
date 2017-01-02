@@ -5,6 +5,7 @@ import com.google.inject.Inject;
 import com.google.inject.Singleton;
 import ratpack.handling.Context;
 import ratpack.handling.Handler;
+import ratpack.websocket.WebSockets;
 
 @Singleton
 public class WebSocketNumbersHandlers implements Handler {
@@ -18,6 +19,6 @@ public class WebSocketNumbersHandlers implements Handler {
 
     @Override
     public void handle(Context ctx) throws Exception {
-
+        //WebSockets.websocketBroadcast(ctx);
     }
 }

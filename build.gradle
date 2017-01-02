@@ -26,7 +26,6 @@ repositories {
 
 dependencies {
     compile ratpack.dependency("guice")
-    compile ratpack.dependency("rx")
 
     runtime 'org.slf4j:slf4j-simple:1.7.22'
 }
