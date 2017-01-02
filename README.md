@@ -1,6 +1,6 @@
 ratpack-reactivestreams-example
 ===
-Example of using [ReactiveStreams](http://http://www.reactive-streams.org/) over WebSockets with [Ratpack](https://ratpack.io/).
+Example of using [ReactiveStreams](http://www.reactive-streams.org/) over WebSockets with [Ratpack](https://ratpack.io/).
 
 ## Bugs and Feedback
 
