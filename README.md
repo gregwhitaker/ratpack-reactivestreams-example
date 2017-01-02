@@ -4,7 +4,14 @@ ratpack-reactivestreams-example
 
 Example of using [ReactiveStreams](http://www.reactive-streams.org/) over WebSockets with [Ratpack](https://ratpack.io/).
 
-## Bugs and Feedback
+##Running the Example
+The example can be run using the following Gradle command:
+
+    $ ./gradlew run
+
+Once the application has started, point your web browser to [http://localhost:5050](http://localhost:5050) to access the test page.
+
+##Bugs and Feedback
 
 For bugs, questions and discussions please use the [Github Issues](https://github.com/gregwhitaker/ratpack-reactivestreams-example/issues).
 
