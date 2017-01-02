@@ -4,6 +4,10 @@ ratpack-reactivestreams-example
 
 Example of using [ReactiveStreams](http://www.reactive-streams.org/) over WebSockets with [Ratpack](https://ratpack.io/).
 
+This example starts a Ratpack application that is listening for WebSocket connections that specify the number of randomly 
+generated integers the client would like returned.  The generated integers are streamed back to the client, at 1 second 
+intervals, using ReactiveStreams over the WebSocket.
+
 ##Running the Example
 The example can be run using the following Gradle command:
 
