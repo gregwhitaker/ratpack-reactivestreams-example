@@ -1,5 +1,6 @@
 ratpack-reactivestreams-example
 ===
+[![Build Status](https://travis-ci.org/gregwhitaker/ratpack-reactivestreams-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/ratpack-reactivestreams-example)
 Example of using [ReactiveStreams](http://www.reactive-streams.org/) over WebSockets with [Ratpack](https://ratpack.io/).
 
 ## Bugs and Feedback
